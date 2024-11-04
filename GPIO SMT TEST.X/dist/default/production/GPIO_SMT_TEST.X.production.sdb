@@ -1,0 +1,623 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F27Q43 ]
+[d frameptr 1249 ]
+"88 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\mcc_generated_files/tmr2.c
+[e E16379 . `uc
+TMR2_ROP_STARTS_TMRON 0
+TMR2_ROP_STARTS_TMRON_ERSHIGH 1
+TMR2_ROP_STARTS_TMRON_ERSLOW 2
+TMR2_ROP_RESETS_ERSBOTHEDGE 3
+TMR2_ROP_RESETS_ERSRISINGEDGE 4
+TMR2_ROP_RESETS_ERSFALLINGEDGE 5
+TMR2_ROP_RESETS_ERSLOW 6
+TMR2_ROP_RESETS_ERSHIGH 7
+TMR2_OS_STARTS_TMRON 8
+TMR2_OS_STARTS_ERSRISINGEDGE 9
+TMR2_OS_STARTS_ERSFALLINGEDGE 10
+TMR2_OS_STARTS_ERSBOTHEDGE 11
+TMR2_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR2_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR2_OS_STARTS_ERSRISINGEDGEDETECT 14
+TMR2_OS_STARTS_ERSFALLINGEDGEDETECT 15
+TMR2_OS_STARTS_TMRON_ERSHIGH 22
+TMR2_OS_STARTS_TMRON_ERSLOW 23
+TMR2_MS_STARTS_TMRON_ERSRISINGEDGEDETECT 17
+TMR2_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT 18
+TMR2_MS_STARTS_TMRON_ERSBOTHEDGE 19
+]
+"94
+[e E16402 . `uc
+TMR2_T2INPPS 0
+TMR2_RESERVED 1
+TMR2_T4POSTSCALED 2
+TMR2_T6POSTSCALED 3
+TMR2_CCP1_OUT 4
+TMR2_CCP2_OUT 5
+TMR2_CCP3_OUT 6
+TMR2_PWM1S1P1_OUT 7
+TMR2_PWM1S1P2_OUT 8
+TMR2_PWM2S1P1_OUT 9
+TMR2_PWM2S1P2_OUT 10
+TMR2_PWM3S1P1_OUT 11
+TMR2_PWM3S1P2_OUT 12
+TMR2_RESERVED_2 13
+TMR2_RESERVED_3 14
+TMR2_CMP1_OUT 15
+TMR2_CMP2_OUT 16
+TMR2_ZCD_OUTPUT 17
+TMR2_CLC1_OUT 18
+TMR2_CLC2_OUT 19
+TMR2_CLC3_OUT 20
+TMR2_CLC4_OUT 21
+TMR2_CLC5_OUT 22
+TMR2_CLC6_OUT 23
+TMR2_CLC7_OUT 24
+TMR2_CLC8_OUT 25
+TMR2_UART1_RX_EDGE 26
+TMR2_UART1_TX_EDGE 27
+TMR2_UART2_RX_EDGE 28
+TMR2_UART2_TX_EDGE 29
+TMR2_UART3_RX_EDGE 30
+TMR2_UART3_TX_EDGE 31
+TMR2_UART4_RX_EDGE 32
+TMR2_UART4_TX_EDGE 33
+TMR2_UART5_RX_EDGE 34
+TMR2_UART5_TX_EDGE 35
+TMR2_RESERVED_4 36
+]
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"17 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"35
+[v _CalculateRPM CalculateRPM `(us  1 e 2 0 ]
+"52
+[v _DisplayRPM DisplayRPM `(v  1 e 1 0 ]
+"62
+[v _LCD_PrintNumber LCD_PrintNumber `(v  1 e 1 0 ]
+"69
+[v _IntToStr IntToStr `(v  1 e 1 0 ]
+"87
+[v _LCD_Print LCD_Print `(v  1 e 1 0 ]
+"95
+[v _LCD_SendNibble LCD_SendNibble `(v  1 e 1 0 ]
+"111
+[v _LCD_SendCommand LCD_SendCommand `(v  1 e 1 0 ]
+"118
+[v _LCD_SendData LCD_SendData `(v  1 e 1 0 ]
+"125
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"50 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"59
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"75
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"59 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\mcc_generated_files/smt1.c
+[v _SMT1_Initialize SMT1_Initialize `(v  1 e 1 0 ]
+"165
+[v _SMT1_GetCapturedPeriod SMT1_GetCapturedPeriod `(ul  1 e 4 0 ]
+"62 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"100
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+"111
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+"122
+[v _TMR2_Counter8BitGet TMR2_Counter8BitGet `(uc  1 e 1 0 ]
+"136
+[v _TMR2_Counter8BitSet TMR2_Counter8BitSet `(v  1 e 1 0 ]
+"147
+[v _TMR2_Period8BitSet TMR2_Period8BitSet `(v  1 e 1 0 ]
+"1280 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-Q_DFP/1.24.430/xc8\pic\include\proc\pic18f27q43.h
+[v _PMD0 PMD0 `VEuc  1 e 1 @96 ]
+"1337
+[v _PMD1 PMD1 `VEuc  1 e 1 @97 ]
+"1399
+[v _PMD3 PMD3 `VEuc  1 e 1 @99 ]
+"1450
+[v _PMD4 PMD4 `VEuc  1 e 1 @100 ]
+"1506
+[v _PMD5 PMD5 `VEuc  1 e 1 @101 ]
+"1557
+[v _PMD6 PMD6 `VEuc  1 e 1 @102 ]
+"1619
+[v _PMD7 PMD7 `VEuc  1 e 1 @103 ]
+"1681
+[v _PMD8 PMD8 `VEuc  1 e 1 @104 ]
+"5140
+[v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
+"5210
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"5350
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @175 ]
+"5390
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @176 ]
+"5448
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"5650
+[v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"11428
+[v _SMT1WINPPS SMT1WINPPS `VEuc  1 e 1 @601 ]
+"11500
+[v _SMT1SIGPPS SMT1SIGPPS `VEuc  1 e 1 @602 ]
+"14410
+[v _RC4I2C RC4I2C `VEuc  1 e 1 @646 ]
+"14542
+[v _RC3I2C RC3I2C `VEuc  1 e 1 @647 ]
+"14674
+[v _RB2I2C RB2I2C `VEuc  1 e 1 @648 ]
+"14806
+[v _RB1I2C RB1I2C `VEuc  1 e 1 @649 ]
+"20816
+[v _SMT1TMR SMT1TMR `VEum  1 e 3 @768 ]
+"21035
+[v _SMT1CPR SMT1CPR `VEum  1 e 3 @771 ]
+"21254
+[v _SMT1CPW SMT1CPW `VEum  1 e 3 @774 ]
+"21473
+[v _SMT1PR SMT1PR `VEum  1 e 3 @777 ]
+"21481
+[v _SMT1PRL SMT1PRL `VEuc  1 e 1 @777 ]
+"21551
+[v _SMT1PRH SMT1PRH `VEuc  1 e 1 @778 ]
+"21621
+[v _SMT1PRU SMT1PRU `VEuc  1 e 1 @779 ]
+"21691
+[v _SMT1CON0 SMT1CON0 `VEuc  1 e 1 @780 ]
+[s S574 . 1 `uc 1 SMT1PS 1 0 :2:0 
+`uc 1 CPOL 1 0 :1:2 
+`uc 1 SPOL 1 0 :1:3 
+`uc 1 WPOL 1 0 :1:4 
+`uc 1 STP 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"21711
+[s S582 . 1 `uc 1 SMT1PS0 1 0 :1:0 
+`uc 1 SMT1PS1 1 0 :1:1 
+]
+[u S585 . 1 `S574 1 . 1 0 `S582 1 . 1 0 ]
+[v _SMT1CON0bits SMT1CON0bits `VES585  1 e 1 @780 ]
+"21756
+[v _SMT1CON1 SMT1CON1 `VEuc  1 e 1 @781 ]
+[s S530 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 . 1 0 :2:4 
+`uc 1 REPEAT 1 0 :1:6 
+`uc 1 SMT1GO 1 0 :1:7 
+]
+"21786
+[s S535 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+[s S540 . 1 `uc 1 SMT1MODE 1 0 :4:0 
+`uc 1 . 1 0 :2:4 
+`uc 1 SMT1REPEAT 1 0 :1:6 
+]
+[s S544 . 1 `uc 1 SMT1MODE0 1 0 :1:0 
+`uc 1 SMT1MODE1 1 0 :1:1 
+`uc 1 SMT1MODE2 1 0 :1:2 
+`uc 1 SMT1MODE3 1 0 :1:3 
+]
+[u S549 . 1 `S530 1 . 1 0 `S535 1 . 1 0 `S540 1 . 1 0 `S544 1 . 1 0 ]
+[v _SMT1CON1bits SMT1CON1bits `VES549  1 e 1 @781 ]
+"21856
+[v _SMT1STAT SMT1STAT `VEuc  1 e 1 @782 ]
+[s S601 . 1 `uc 1 AS 1 0 :1:0 
+`uc 1 WS 1 0 :1:1 
+`uc 1 TS 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 RST 1 0 :1:5 
+`uc 1 CPWUP 1 0 :1:6 
+`uc 1 CPRUP 1 0 :1:7 
+]
+"21881
+[s S609 . 1 `uc 1 SMT1AS 1 0 :1:0 
+`uc 1 SMT1WS 1 0 :1:1 
+`uc 1 SMT1TS 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 SMT1RESET 1 0 :1:5 
+`uc 1 SMT1CPWUP 1 0 :1:6 
+`uc 1 SMT1CPRUP 1 0 :1:7 
+]
+[u S617 . 1 `S601 1 . 1 0 `S609 1 . 1 0 ]
+[v _SMT1STATbits SMT1STATbits `VES617  1 e 1 @782 ]
+"21946
+[v _SMT1CLK SMT1CLK `VEuc  1 e 1 @783 ]
+"22026
+[v _SMT1SIG SMT1SIG `VEuc  1 e 1 @784 ]
+"22130
+[v _SMT1WIN SMT1WIN `VEuc  1 e 1 @785 ]
+"24083
+[v _T2TMR T2TMR `VEuc  1 e 1 @802 ]
+"24088
+[v _TMR2 TMR2 `VEuc  1 e 1 @802 ]
+"24121
+[v _T2PR T2PR `VEuc  1 e 1 @803 ]
+"24126
+[v _PR2 PR2 `VEuc  1 e 1 @803 ]
+"24159
+[v _T2CON T2CON `VEuc  1 e 1 @804 ]
+[s S382 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"24195
+[s S386 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+`uc 1 T2CKPS 1 0 :3:4 
+`uc 1 T2ON 1 0 :1:7 
+]
+[s S390 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+`uc 1 T2OUTPS1 1 0 :1:1 
+`uc 1 T2OUTPS2 1 0 :1:2 
+`uc 1 T2OUTPS3 1 0 :1:3 
+`uc 1 T2CKPS0 1 0 :1:4 
+`uc 1 T2CKPS1 1 0 :1:5 
+`uc 1 T2CKPS2 1 0 :1:6 
+]
+[s S398 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+`uc 1 TMR2ON 1 0 :1:7 
+]
+[u S407 . 1 `S382 1 . 1 0 `S386 1 . 1 0 `S390 1 . 1 0 `S398 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES407  1 e 1 @804 ]
+"24305
+[v _T2HLT T2HLT `VEuc  1 e 1 @805 ]
+[s S248 . 1 `uc 1 MODE 1 0 :5:0 
+`uc 1 CKSYNC 1 0 :1:5 
+`uc 1 CKPOL 1 0 :1:6 
+`uc 1 PSYNC 1 0 :1:7 
+]
+"24338
+[s S253 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+`uc 1 MODE4 1 0 :1:4 
+]
+[s S259 . 1 `uc 1 T2MODE 1 0 :5:0 
+`uc 1 T2CKSYNC 1 0 :1:5 
+`uc 1 T2CKPOL 1 0 :1:6 
+`uc 1 T2PSYNC 1 0 :1:7 
+]
+[s S264 . 1 `uc 1 T2MODE0 1 0 :1:0 
+`uc 1 T2MODE1 1 0 :1:1 
+`uc 1 T2MODE2 1 0 :1:2 
+`uc 1 T2MODE3 1 0 :1:3 
+`uc 1 T2MODE4 1 0 :1:4 
+]
+[u S270 . 1 `S248 1 . 1 0 `S253 1 . 1 0 `S259 1 . 1 0 `S264 1 . 1 0 ]
+[v _T2HLTbits T2HLTbits `VES270  1 e 1 @805 ]
+"24433
+[v _T2CLKCON T2CLKCON `VEuc  1 e 1 @806 ]
+"24639
+[v _T2RST T2RST `VEuc  1 e 1 @807 ]
+[s S336 . 1 `uc 1 RSEL 1 0 :8:0 
+]
+"24670
+[s S338 . 1 `uc 1 RSEL0 1 0 :1:0 
+`uc 1 RSEL1 1 0 :1:1 
+`uc 1 RSEL2 1 0 :1:2 
+`uc 1 RSEL3 1 0 :1:3 
+`uc 1 RSEL4 1 0 :1:4 
+`uc 1 RSEL5 1 0 :1:5 
+`uc 1 RSEL6 1 0 :1:6 
+]
+[s S346 . 1 `uc 1 T2RSEL 1 0 :8:0 
+]
+[s S348 . 1 `uc 1 T2RSEL0 1 0 :1:0 
+`uc 1 T2RSEL1 1 0 :1:1 
+`uc 1 T2RSEL2 1 0 :1:2 
+`uc 1 T2RSEL3 1 0 :1:3 
+`uc 1 T2RSEL4 1 0 :1:4 
+`uc 1 T2RSEL5 1 0 :1:5 
+`uc 1 T2RSEL6 1 0 :1:6 
+]
+[u S356 . 1 `S336 1 . 1 0 `S338 1 . 1 0 `S346 1 . 1 0 `S348 1 . 1 0 ]
+[v _T2RSTbits T2RSTbits `VES356  1 e 1 @807 ]
+"38951
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+"39013
+[v _WPUA WPUA `VEuc  1 e 1 @1025 ]
+"39075
+[v _ODCONA ODCONA `VEuc  1 e 1 @1026 ]
+"39137
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @1027 ]
+"39199
+[v _INLVLA INLVLA `VEuc  1 e 1 @1028 ]
+"39447
+[v _ANSELB ANSELB `VEuc  1 e 1 @1032 ]
+"39509
+[v _WPUB WPUB `VEuc  1 e 1 @1033 ]
+"39571
+[v _ODCONB ODCONB `VEuc  1 e 1 @1034 ]
+"39633
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @1035 ]
+"39695
+[v _INLVLB INLVLB `VEuc  1 e 1 @1036 ]
+"39943
+[v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
+"40005
+[v _WPUC WPUC `VEuc  1 e 1 @1041 ]
+"40067
+[v _ODCONC ODCONC `VEuc  1 e 1 @1042 ]
+"40129
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @1043 ]
+"40191
+[v _INLVLC INLVLC `VEuc  1 e 1 @1044 ]
+"40446
+[v _WPUE WPUE `VEuc  1 e 1 @1057 ]
+"40467
+[v _ODCONE ODCONE `VEuc  1 e 1 @1058 ]
+"40481
+[v _INLVLE INLVLE `VEuc  1 e 1 @1060 ]
+[s S204 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
+`uc 1 SPI1TXIF 1 0 :1:1 
+`uc 1 SPI1IF 1 0 :1:2 
+`uc 1 TMR2IF 1 0 :1:3 
+`uc 1 TMR1IF 1 0 :1:4 
+`uc 1 TMR1GIF 1 0 :1:5 
+`uc 1 CCP1IF 1 0 :1:6 
+`uc 1 TMR0IF 1 0 :1:7 
+]
+"46370
+[u S213 . 1 `S204 1 . 1 0 ]
+"46370
+"46370
+[v _PIR3bits PIR3bits `VES213  1 e 1 @1201 ]
+"47068
+[v _LATA LATA `VEuc  1 e 1 @1214 ]
+[s S98 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"47085
+[u S107 . 1 `S98 1 . 1 0 ]
+"47085
+"47085
+[v _LATAbits LATAbits `VES107  1 e 1 @1214 ]
+"47130
+[v _LATB LATB `VEuc  1 e 1 @1215 ]
+"47192
+[v _LATC LATC `VEuc  1 e 1 @1216 ]
+[s S77 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"47209
+[u S86 . 1 `S77 1 . 1 0 ]
+"47209
+"47209
+[v _LATCbits LATCbits `VES86  1 e 1 @1216 ]
+"47323
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
+"47385
+[v _TRISB TRISB `VEuc  1 e 1 @1223 ]
+"47447
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+"17 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"21
+[v main@rpm rpm `us  1 a 2 39 ]
+"32
+} 0
+"50 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"57
+} 0
+"62 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"59 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\mcc_generated_files/smt1.c
+[v _SMT1_Initialize SMT1_Initialize `(v  1 e 1 0 ]
+{
+"88
+} 0
+"75 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"93
+} 0
+"55 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"126
+} 0
+"59 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"73
+} 0
+"125 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\main.c
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"144
+} 0
+"52
+[v _DisplayRPM DisplayRPM `(v  1 e 1 0 ]
+{
+[v DisplayRPM@rpm rpm `us  1 p 2 27 ]
+"59
+} 0
+"111
+[v _LCD_SendCommand LCD_SendCommand `(v  1 e 1 0 ]
+{
+[v LCD_SendCommand@cmd cmd `uc  1 p 1 wreg ]
+[v LCD_SendCommand@cmd cmd `uc  1 p 1 wreg ]
+[v LCD_SendCommand@cmd cmd `uc  1 p 1 3 ]
+"116
+} 0
+"62
+[v _LCD_PrintNumber LCD_PrintNumber `(v  1 e 1 0 ]
+{
+"63
+[v LCD_PrintNumber@buffer buffer `[6]uc  1 a 6 21 ]
+"62
+[v LCD_PrintNumber@num num `us  1 p 2 19 ]
+"66
+} 0
+"87
+[v _LCD_Print LCD_Print `(v  1 e 1 0 ]
+{
+[v LCD_Print@str str `*.35Cuc  1 p 2 3 ]
+"91
+} 0
+"118
+[v _LCD_SendData LCD_SendData `(v  1 e 1 0 ]
+{
+[v LCD_SendData@data data `uc  1 p 1 wreg ]
+[v LCD_SendData@data data `uc  1 p 1 wreg ]
+[v LCD_SendData@data data `uc  1 p 1 2 ]
+"123
+} 0
+"95
+[v _LCD_SendNibble LCD_SendNibble `(v  1 e 1 0 ]
+{
+[v LCD_SendNibble@nibble nibble `uc  1 p 1 wreg ]
+[v LCD_SendNibble@nibble nibble `uc  1 p 1 wreg ]
+"97
+[v LCD_SendNibble@nibble nibble `uc  1 p 1 1 ]
+"109
+} 0
+"69
+[v _IntToStr IntToStr `(v  1 e 1 0 ]
+{
+"80
+[v IntToStr@temp temp `uc  1 a 1 14 ]
+"79
+[v IntToStr@j j `i  1 a 2 17 ]
+"70
+[v IntToStr@i i `i  1 a 2 15 ]
+"69
+[v IntToStr@num num `us  1 p 2 8 ]
+[v IntToStr@buffer buffer `*.39uc  1 p 2 10 ]
+"84
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 0 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 2 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"30
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"35 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\main.c
+[v _CalculateRPM CalculateRPM `(us  1 e 2 0 ]
+{
+"36
+[v CalculateRPM@periodCount periodCount `ul  1 a 4 33 ]
+"43
+[v CalculateRPM@frequency frequency `ul  1 a 4 27 ]
+"46
+[v CalculateRPM@rpm rpm `us  1 a 2 31 ]
+"49
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 20 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 24 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 12 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 16 ]
+"30
+} 0
+"165 C:\Users\garyt\MPLABXProjects\GPIO SMT TEST.X\mcc_generated_files/smt1.c
+[v _SMT1_GetCapturedPeriod SMT1_GetCapturedPeriod `(ul  1 e 4 0 ]
+{
+"168
+} 0
