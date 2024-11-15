@@ -28,6 +28,9 @@ void main(void) {
         DisplayRPM(rpm);
         
         __delay_ms(500); // Update display every 500ms
+        garytt is g
+        a
+        y
     }
 }
 
